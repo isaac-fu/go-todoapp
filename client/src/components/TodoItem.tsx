@@ -91,7 +91,7 @@ const TodoItem = ({ todo }: { todo: Todo }) => {
         </Box>
         <Box color={"red.500"} cursor={"pointer"} onClick={() => deleteTodo()}>
           {!isDeleting && <MdDelete size={25} />}
-          {!isDeleting && <Spinner size={"sm"} />}
+          {isDeleting && <Spinner size={"sm"} />}
         </Box>
       </Flex>
     </Flex>

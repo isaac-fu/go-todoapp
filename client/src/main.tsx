@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
-import { ChakraProvider, defaultSystem } from '@chakra-ui/react'
+import { ChakraProvider } from '@chakra-ui/react'
 import { ColorModeProvider } from "./components/ui/color-mode.tsx"
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import theme from "./chakra/theme.ts"

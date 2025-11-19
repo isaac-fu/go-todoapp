@@ -1,5 +1,4 @@
 import { Flex, Spinner, Stack, Text } from "@chakra-ui/react";
-import { useState } from "react";
 import TodoItem from "./TodoItem.tsx";
 import { useQuery } from "@tanstack/react-query";
 

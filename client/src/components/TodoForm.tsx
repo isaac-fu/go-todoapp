@@ -2,12 +2,12 @@ import { Button, Flex, Input, Spinner } from "@chakra-ui/react";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useState } from "react";
 import { IoMdAdd } from "react-icons/io";
-import { RiNewsFill } from "react-icons/ri";
+// import { RiNewsFill } from "react-icons/ri";
 import { BASE_URL } from "../App";
 
 const TodoForm = () => {
 	const [newTodo, setNewTodo] = useState("");
-	const [isPending, setIsPending] = useState(false);
+	// const [isPending, setIsPending] = useState(false);
 
 	const queryClient = useQueryClient();
 
