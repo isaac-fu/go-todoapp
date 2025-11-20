@@ -4,7 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import { BASE_URL } from "../App.tsx";
 
 export type Todo = {
-    _id: number;
+    _id: string;
     body: string;
     completed: boolean;
 }
