@@ -12,7 +12,7 @@ const TodoForm = () => {
 	const queryClient = useQueryClient();
 
 	const {mutate:createTodo, isPending:isCreating}=useMutation({
-		mutationKey:['createTodo'],
+		mutationKey:["createTodo"],
 		mutationFn:async(e:React.FormEvent)=>{
 			e.preventDefault()
 			try {
