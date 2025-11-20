@@ -24,6 +24,7 @@ type Todo struct {
 var collection *mongo.Collection
 
 func main() {
+	fmt.Printf("ENV = %q\n", os.Getenv("ENV"))
 	fmt.Println("hello world")
 
 	if os.Getenv("ENV") != "production" {
